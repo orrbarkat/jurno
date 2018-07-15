@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'DIN Alternate Bold';
+    src: url('fonts/DIN Alternate Bold.eot');
+    src: local('☺'), url('fonts/DIN Alternate Bold.woff') format('woff'), url('fonts/DIN Alternate Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (min-width: 767px) {
+    .innerpage-cnt {
+        padding-top: 146px;
+    }
+
+    #content {
+        padding-left: 240px;
+    }
+
+    #content #mid-wrapper > div,
+    #content #edit-profile > div,
+    #content #change-password > div {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+
+.active {
+    height: auto;
+}
+
+.top-header {
+    top: 0;
+    z-index: 1030;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.brand-container {
+    min-height: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #404043;
+    padding: 0 40px;
+}
+
+.brand-container a {
+    color: #fff;
+    font-family: DIN Alternate Bold;
+    margin-top: -2px;
+    font-size: 15px;
+}
+
+.column2-logo {
+    width: 182px;
+    margin-top: -8px;
+}
+
+.nav .divider-vertical {
+    height: 27px;
+    width: 5px;
+    background: url('../images/2column/red_divider_line.png') no-repeat center;
+    margin: 5px 0;
+    margin-left: 1px;
+}
+
+.subnav {
+    min-height: 76px;
+    height: 76px;
+    line-height: 76px;
+    padding: 0 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+    font-family: GothamBook;
+    font-size: 15px;
+    letter-spacing: -0.7px;
+}
+
+.subnav ul {
+    margin-top: 19px;
+}
+
+.subnav li {
+    background: none;
+}
+
+.subnav li a {
+    padding: 0 12px;
+    color: #D1D3D4;
+    font-family: 'GothamBook';
+}
+
+.subnav li:first-child a {
+    padding-left: 0;
+}
+
+.subnav li:last-child a {
+    padding-right: 0;
+}
+
+.subnav li.active a {
+    color: #414143;
+}
+
+.mynav li a:hover,
+.mynav li a:focus,
+.mynav li a:active {
+    background-color: inherit;
+}
+
+#sidebar {
+    background: #ef4628;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 146px;
+    width: 240px;
+    z-index: 60;
+}
+
+#sidebar .sidebar-navbar {
+    margin-top: 99px;
+    background: inherit;
+}
+
+#sidebar .sidebar-navbar ul {
+    text-indent: 5px;
+}
+
+#sidebar .sidebar-navbar li {
+    list-style: none;
+    margin-left: 12px;
+    display: list-item;
+}
+
+#sidebar .sidebar-navbar li.active {
+    list-style: outside url('../images/2column/white_arrow.png');
+}
+
+#sidebar .sidebar-navbar li a {
+    padding: 0;
+    color: #fff;
+    line-height: 34px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-family: 'gotham_mediumregular';
+    font-size: 14px;
+}
+
+.break-word {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.modal-info #report_text {
+    margin-top: 10px;
+}
+
+.modal-info .form-control {
+    border: 0;
+    border-radius: 0;
+    margin-top: -10px;
+}
+
+.modal-info .modal-content {
+    border-radius: 0;
+    padding: 20px;
+    background: #fff url('../images/paper_texture.png');
+    font-family: 'GothamBook';
+}
+
+.modal-info .modal-header {
+    border-bottom: 0;
+}
+
+.modal-info h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.modal-info p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.modal-info li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.modal-info p:last-child {
+    margin-bottom: 0;
+}
+
+.modal-info p a {
+    color: #424243;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.modal-info .modal-body {
+    padding: 0 15px;
+}
+
+.modal-info strong {
+    font-family: gotham_mediumregular;
+}
+
+.modal-info .modal-footer {
+    border-top: 0;
+    margin: 16px 0 31px;
+    padding: 0 18px;
+}
+
+.modal-info .btn-modal {
+    background-color: #f1462b;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 215px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'GothamBook';
+}
+
+.modal-info .modal-footer .btn {
+    margin-top: 15px;
+}
+
+.modal-info .modal-footer .btn + .btn {
+    margin-left: 16px;
+}
+
+.entry_sharing_modal .modal-content {
+    padding-bottom: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.close {
+    opacity: 0.5;
+}
+
+.checkmark_red li {
+    background: url('../images/checkmark_red.png') no-repeat left center;
+}
+
+.exclusive-locked-img {
+    margin: 0 auto;
+    background: url('../images/lock_icon.png') no-repeat center;
+    width: 20px;
+    height: 22px;
+}
+
+.orange-h3 {
+    color: #f1462b;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: GothamBook;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+@media (min-width: 962px) {
+    .modal-info {
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .modal-info:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+    .modal-info .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        width: 74%;
+        max-width: 755px;
+        margin-top: -44px;
+    }
+}
+
+@media (max-width: 962px) {
+    .modal-info .modal-dialog {
+        width: auto;
+    }
+
+    .modal-info h2 {
+        font-size: 24px;
+    }
+
+    .modal-info .modal-footer .btn + .btn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .modal-info .modal-footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-header {
+        background: #404043;
+    }
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background: #404043 !important;
+    }
+    .menu-username {
+        text-transform: none !important;
+    }
+    .last-menu-item {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #e4e4e4 !important;
+    }
+    .search-mobile {
+        line-height: 50px;
+    }
+    img.logo {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 240px) {
+    .navbar-inverse .navbar-brand {
+         width: 99px;
+    }
+    img.logo {
+        width: 100%;
+    }
+    ul.ui-autocomplete {
+        min-width: 0 !important;
+        max-width: none !important;
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 319px) and (min-width: 240px) {
+    #search_input {
+        width: 85px !important;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    #search_input {
+        max-width: 82px;
+        font-size: 11px;
+    }
+}

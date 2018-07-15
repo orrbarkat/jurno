@@ -1,0 +1,144 @@
+@media (min-width: 767px) {
+    .innerpage-cnt {
+        padding-top: 70px;
+    }
+
+    #content {
+        padding-left: 0;
+    }
+
+    #content #mid-wrapper > div,
+    #content #edit-profile > div,
+    #content #change-password > div {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+.unsigned-section {display: inline-block;}
+.unsigned-section a {font-family: 'GothamBook'; letter-spacing: 0.08em;}
+.get-the-app {letter-spacing: 0.08em; background-color: #e64527; padding: 8px 12px 5px; margin-right: 22px;}
+.red-divider-line {margin: -6px 12px 0}
+
+.header-search img {
+    margin: -7px 20px 0 20px;
+}
+
+.search_input {
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    background: transparent !important;
+    border: 0;
+    width: 175px;
+    color: #fff !important;
+    padding: 0 2px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+ul.ui-autocomplete {
+    background: #fff;
+    padding: 30px 15px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.4);
+    min-width: 350px;
+    max-width: 450px;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.ui-state-active {
+    text-decoration: underline;
+}
+
+#white_arrow_up {
+    position: absolute;
+    background: url('../images/arrow_up_white.png') no-repeat center;
+    width: 29px;
+    height: 15px;
+    z-index: 2000;
+    display: none;
+}
+
+.search-result {
+    height: 50px;
+    width: 100%;
+}
+
+.search-result a {
+    color: #000;
+}
+.search-result a:hover {
+    color: #e64527;
+}
+
+.search-picture {
+    padding: 0;
+    margin-right: 5px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.search-result-user .search-picture img {
+    width: 50px;
+    height: 50px;
+}
+
+.search-result-place .search-picture {
+    line-height: 46px;
+}
+
+.search-result-place .search-picture img {
+    width: 26px;
+    height: 36px;
+}
+
+.search-label {
+    margin-top: -50px;
+    margin-left: 55px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 50px;
+    padding-top: 4px;
+    white-space: nowrap;
+}
+
+.search-result-place .search-label {
+    line-height: 50px;
+    padding-top: 0;
+}
+
+.featured-journos-box {
+    margin-top: 0;
+}
+
+.usersites-title {
+    margin: 0 0 60px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'GothamBook';
+    font-weight: normal;
+    text-align: center;
+    color: #424243;
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .header-search img {
+        margin: -7px 15px 0 15px;
+    }
+    .get-the-app {
+        margin-right: 15px;
+    }
+    .search_input {
+        max-width: 110px;
+    }
+    .search_input-loginned {
+        max-width: initial;
+    }
+}

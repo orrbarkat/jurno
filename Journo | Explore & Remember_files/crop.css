@@ -1,0 +1,55 @@
+#avatar_container {
+    overflow: hidden;
+}
+
+.avatar_container-dashboard {
+    width: 110px;
+    height: 110px;
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.avatar_container-sign-up {
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#avatar_container img {
+    width: 100%;
+}
+
+#cropbox {
+    max-width: 100% !important; /* This rule is very important, please do not ignore this! */
+    width: 100%;
+    height: 100%;
+}
+
+.cropper-view-box {
+    outline-color: rgba(230, 69, 39, 0.75);
+    outline: 1px solid #e64527;
+}
+
+.cropper-line {
+    background-color: #e64527;
+}
+
+.cropper-point {
+    background-color: #e64527;
+}
+
+.avatar-loading {
+    width: 30px;
+    float: left;
+    position: absolute;
+    right: -45px;
+    top: 18px;
+    display: none;
+}
+
+.avatar-loading-edit-profile {
+    top: 5px;
+}

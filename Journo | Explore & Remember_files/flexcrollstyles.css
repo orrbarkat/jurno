@@ -1,0 +1,26 @@
+.scrollgeneric { line-height: 1px; font-size: 1px; position: absolute; top: 0; left: 0; }
+.vscrollerbase { width:7px; }
+.vscrollerbar { width: 7px;}
+.hscrollerbase { height: 0px; }
+.hscrollerbar { height: 0px; }
+.hscrollerbar { background: #e64527; }
+.vscrollerbar { background: #e64527; }
+.vscrollerbar, .hscrollerbar { padding: 0; z-index: 2;}
+.vscrollerbarbeg { width: 15px; height: 15px !important; }
+.vscrollerbarend { width: 15px; height: 15px; }
+.hscrollerbarbeg { height: 15px; width: 15px !important; }
+.hscrollerbarend { height: 15px; width: 15px; }
+.scrollerjogbox { background: #4E727C; width: 15px; height: 15px; top: auto; left: auto; bottom: 0px; right: 0px; }
+.vscrollerbase { background: #ccc; border-radius:42px; overflow:hidden;}
+.vscrollerbasebeg { width: 15px; height: 15px !important; background: red;  display:none;}
+.vscrollerbaseend { height: 15px; width: 15px; background: red; display:none;}
+.hscrollerbase { background: #D7EBDF; }
+.hscrollerbasebeg { height: 15px; width: 15px !important; background: green; }
+.hscrollerbaseend { height: 15px; width: 15px; background: green; }
+.scrollerjogbox:hover { background: #5E828C; }
+/* Horizontal Scroll */
+.horizontalwrap { display: inline-block; vertical-align: middle; white-space: nowrap; }
+.mycustomscroll { width: 800px; height: 120px; overflow: auto; position: relative; padding: 0px; }
+/* Horizontal Scroll */
+.flexcroll{ height:500px; width:540px;}
+.body-flexcroll{ overflow-y:hidden}
